@@ -1,0 +1,21 @@
+{
+  "lastRun": "1574923274216-add-products.js",
+  "migrations": [
+    {
+      "title": "1574917934332-add-category.js",
+      "timestamp": 1575003393771
+    },
+    {
+      "title": "1574923274214-add-discount.js",
+      "timestamp": 1575003393777
+    },
+    {
+      "title": "1574923274215-add-images.js",
+      "timestamp": 1575003393780
+    },
+    {
+      "title": "1574923274216-add-products.js",
+      "timestamp": 1575003393786
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<div class="card">
+  <h2 class="card-header">Product Detail</h2>
+
+  <div class="card-body">
+    <h5 class="card-title">{{product.name}}</h5>
+    <div class="col-lg-5 align-content-center" style="margin: 0 auto;" >
+      <app-slider [images]="product.images"></app-slider>
+    </div>
+    <p class="card-text"><strong>Description:</strong> {{product.description}}</p>
+    <p class="card-text"><strong>Price:</strong> ${{product.unit_price}}</p>
+    <p class="card-text"><strong>Categories:</strong>
+
+      <ng-container *ngFor="let cat of product.categories">
+
+        <li>{{cat["name"]}}</li>
+
+      </ng-container>
+
+    </p>
+    <a routerLink="/home" class="btn btn-primary">Go Home</a>
+  </div>
+</div>

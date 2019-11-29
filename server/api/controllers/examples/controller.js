@@ -16,3 +16,8 @@ export class Controller {
   } 
 }
 export default new Controller();
+
+// Is the export default new … pattern valid at all?
+//     No, it's an antipattern for the reasons outlined above. Given the class is used nowhere else, ' +
+// 'it's quite similar to the anonymous class antipattern. And exporting multiple named
+// exports is much better than default-exporting objects anyway.
